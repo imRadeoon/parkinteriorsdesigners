@@ -1,0 +1,572 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.text-center{
+    text-align: center;
+
+}
+
+
+/* CSS FOR BUTTONS */
+
+.btn{
+    border: none;
+    display: inline-block;
+    padding: 0.5rem 2rem;
+}
+
+.btn-light{
+    border: 1px solid white;
+    color: white;
+    transition: all 0.4s ease-in;
+}
+
+.btn-light:hover{
+    border:none;
+    background-color:white;
+    color: grey;
+    font-weight: bold;
+}
+
+.btn-dark{
+    border: none;
+    background-color: grey;
+    color:white;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-dark:hover{
+  opacity: 0.10;
+}
+
+
+
+
+
+
+
+/* CSS FOR USER-MADE(PRADEEP) FUNCTIONS */
+
+.py-1{
+    padding: 1rem 0;
+}
+
+.py-2{
+    padding: 2rem 0;
+}
+.py-3{
+    padding: 3rem 0;
+}
+.PY-4{
+    padding: 4rem 0;
+}
+
+
+.my-1{
+    margin: 1rem 0;
+}
+.my-2{
+    margin: 2rem 0;
+}
+.my-3{
+    margin:3rem 0;
+}
+.my-4{
+    margin: 4rem 0;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    line-height: 1.7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.text-primary{
+    color: yellowgreen;
+}
+
+.container{
+    margin:auto;
+    padding: 0 2rem;
+    max-width:1101px;
+    overflow: hidden;
+
+}
+.text-meme{
+    font-size: 2rem;
+    color:white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#showcase{
+    background: url("../photos/parksblue.png") no-repeat center center/cover;
+    height: 100vh;
+  
+}
+
+
+#showcase #navbar{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    width: 100%;
+    margin-left: 30;
+}
+#showcase #navbar .logo{
+  width:30%;
+  margin-top: 5%;
+  height:300px;
+}
+
+#showcase #navbar ul{
+    list-style: none;
+}
+
+
+
+#showcase #navbar .logo{
+    background-color: white;
+    border-radius: 2% 50%;
+    transition: all 3s;
+    transition-timing-function: ease-in-out 0s alternate infinite running ;
+}
+
+.logobogo{
+    background-color: white;
+    border-radius: 2% 50%;
+    transition: all 3s;
+    transition-timing-function: ease-in-out;
+    
+}
+.logonav{
+background-color: white;
+border-radius: 2% 50%;
+transition: all 3s;
+transition-timing-function: ease-in-out;
+width: 5%;
+height:5%;
+}
+.logonav:hover{
+    transform: rotate(1080deg);
+}
+
+
+
+
+.logobogo:hover{
+    transform: rotate(1080deg);
+
+
+}
+
+
+
+#showcase #navbar .logo:hover{
+    transform: rotate(1080deg);
+
+}
+
+
+
+
+
+
+
+
+#showcase #navbar .logo img{
+    border-radius: 360px;
+}
+#showcase #navbar ul{
+    list-style: none;
+    display: flex;
+}
+#showcase #navbar li{
+    padding-left: 2rem; 
+}
+#showcase #navbar a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+#showcase #navbar a:hover{
+    color: black;
+}
+
+#showcase .show-content{
+    text-align: center;
+    padding-top: 11rem;
+}
+#showcase .show-content h3{
+    color: white;
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+
+/* CSS FOR USER-MADE(PRADEEP) FUNCTIONS */
+
+/* CSS for Home 1 */
+
+#home-1 {
+    color:grey;
+}
+#home-1 .process-container {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    
+}
+#home-1 .process-container div{
+    padding: 2rem 2rem;
+    border: 2px solid black;
+    margin: 3rem 1rem;
+    border-radius: 50px;
+    transition: all 0.5s ease-in;
+    
+}
+#home-1 .process-container div:hover{
+    transform:translate(-10px, -10px);
+    box-shadow: 1px 1px 8px -1px grey;
+    border-radius:5;
+}
+#home-1 .process-container div hr{
+    width: 160px;
+}
+
+/*CSS FOR USER-MADE(PRADEEP SURESH SUTHAR */
+
+#home-b .features-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+#home-b .features-container div{
+    background: white;
+    padding:5rem;
+}
+#home-b .features-container div:nth-child(even){
+    background: white;
+}
+
+
+
+#home-c .award-grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5rem;
+}
+#home-c div{
+    padding: 0 2rem 1.5rem 2rem;
+}
+#home-c h1{
+    padding-bottom:2rem;
+
+}
+#home-c i{
+    color: orangered;
+}
+
+/*CSS FOR USER-MADE(PRADEEP SURESH SUTHAR */
+
+#home-d {
+    color: rgba(250, 250, 250, 0.681);
+}
+#home-d .word-content{
+    background-color:black;
+    padding: 6rem 0;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+
+#home-d .word-content .btn-dark{
+    margin-top: 5rem;
+}
+
+#project{
+    
+    padding:0 0 25 0;
+}
+
+
+#project-a{
+    background-color: grey;
+}
+
+#project #navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(11, 9, 9);
+    width:100%;
+    padding:1rem;
+    padding-bottom:30px;
+}
+#project #navbar h3{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 3rem;
+
+}
+#project #navbar ul{
+    display: flex;
+    list-style: none;
+    
+}
+#project #navbar li{
+    padding-left: 2rem;
+}
+
+#project .container a{
+    color: grey;
+}
+#project #navbar a{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#project #navbar a:hover{
+    color: chartreuse;
+}
+#project-a .items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem 0 5rem 0;
+    grid-gap: 4rem;
+}
+#project-a .items .text-title{
+    font-size: 1rem;
+    display: none;
+    transition: all 0.2s ease-in;
+}
+#project-a .items img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in;
+}
+#project-a .items img:hover{
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+}
+#project-a .items .item:hover .text-title{
+    display:block;
+}
+
+
+/*CSS FOR ABOUT PAGE */
+
+#About{
+    padding:0 0 4rem 0;
+}
+
+
+#About #navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(11, 9, 9);
+    width:100%;
+    padding:1rem;
+    padding-bottom:30px;
+}
+
+#About #navbar ul{
+    display: flex;
+    list-style: none;
+}
+#About #navbar ul li{
+    padding-left: 1.5rem;
+}
+#About #navbar a {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#About #navbar a:hover{
+    color: chartreuse;
+    text-decoration: none;
+}
+#about-a .about-container{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-gap: 6rem;
+    padding:0 2rem;
+    margin-bottom: 5%;
+
+}
+#about-a .about-container div:last-child{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+    padding:0 2rem;
+}
+
+#about-c .grid-plan{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:3rem;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#about-c .grid-plan div ul {
+    display: flex;
+
+}
+#about-c .grid-plan div ul li{
+    padding-left: 0.7rem;
+}
+#about-c .grid-plan img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;   
+}
+
+/*CSS FOR CONTACTS PAGE */
+
+#contact{
+    padding: 0  0 4rem 0;
+}
+#contact #navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(11, 9, 9);
+    width:100%;
+    padding:1rem;
+    padding-bottom:30px;
+}
+ 
+
+
+#contact #navbar ul{
+    display: flex;
+    list-style: none;
+}
+#contact #navbar li{
+    padding-left: 2rem;
+}
+#contact #navbar a{
+    color: white;
+    font-weight: bold;
+}
+#contact #navbar a:hover{
+    color: greenyellow;
+}
+#contact-a #form-group{
+margin: 1rem 0;
+}
+#contact-a{
+    margin-bottom: 1rem;
+}
+#contact-a .form-group label{
+    display: block;
+    font-size:larger;
+    color: black;
+}
+#contact-a .form-group input{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline-color:blue;
+}
+
+#contact-a .form-group textarea{
+    width: 100%;
+    height:150px;
+    margin-bottom: 1rem;
+}
+
+.element{
+    animation-name: stretch;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+.element{
+    animation: stretch 1.5s ease-out 0s alternate infinite none running;
+    
+}
+
+/*CSS FOR FOOTER */
+
+#main-footer{
+    background-color: black;
+    padding: 3rem;
+  
+    
+} 
+
+#main-footer ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 2rem;
+    color: white;
+    list-style: none;
+}
+
+
+#main-footer ul .social-footer{
+ color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
